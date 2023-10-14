@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const mongodb = require('./db/connect');
+const mongodb = require('./planetsProject/db/connect');
 
 const port = process.env.PORT || 3000;
 const app = express();
@@ -11,7 +11,7 @@ app
     res.setHeader('Access-Control-Allow-Origin', '*');
     next();
   })
-  .use('/', require('./routes'));
+  .use('/', require('./planetsProject/routes'));
 
 mongodb.initDb((err) => {
   if (err) {
