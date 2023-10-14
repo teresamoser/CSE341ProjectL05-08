@@ -1,0 +1,74 @@
+[
+    {
+        "name":"Mercury",
+        "numberOrder":"1", 
+        "distanceFromSun":"57,910,000 km (35,983,605 mi)", 
+        "temperature":" -180 to 430 °C (-290 to 800 °F)",
+        "dayLength":"59 Earth days", 
+        "yearLength":"87.97 Earth days", 
+        "numberOfMoons":"0"
+    },
+    {
+        "name":"Venus",
+        "numberOrder":"2", 
+        "distanceFromSun":"108,200,000 km (67,232,363 mi)", 
+        "temperature":"438 to 482°C (820 to 900 °F)",
+        "dayLength":"243 Earth days", 
+        "yearLength":"225 Earth days", 
+        "numberOfMoons":"0"
+    },
+    {
+        "name":"Earth",
+        "numberOrder":"3", 
+        "distanceFromSun":"149,600,000 km (92,957,130 mi)", 
+        "temperature":"14°C ( 57.2 °F)",
+        "dayLength":"23.9 hours", 
+        "yearLength":"365.25 days", 
+        "numberOfMoons":"1"
+    },
+    {
+        "name":"Mars",
+        "numberOrder":"4", 
+        "distanceFromSun":"227,940,000 km (141,635,349 mi)", 
+        "temperature":"-153 to 20 °C ( -225 to 70 °F)",
+        "dayLength":"24.6 Earth days", 
+        "yearLength":"687 Earth days", 
+        "numberOfMoons":"2"
+    },
+    {
+        "name":"Jupiter",
+        "numberOrder":"5", 
+        "distanceFromSun":"778,330,000 km (483,631,840 mi)", 
+        "temperature":"-108 °C ( -162 °F)",
+        "dayLength":"9.93 Earth hours", 
+        "yearLength":"11.86 Earth years", 
+        "numberOfMoons":"79"
+    },
+    {
+        "name":"Saturn",
+        "numberOrder":"6", 
+        "distanceFromSun":"1,424,600,000 km (885,205,400 mi)", 
+        "temperature":"138 °C (-218 °F)",
+        "dayLength":"10.7 Earth hours", 
+        "yearLength":"29 Earth years", 
+        "numberOfMoons":"82"
+    },
+    {
+        "name":"Uranus",
+        "numberOrder":"7", 
+        "distanceFromSun":"2,873,550,000 km (1,785,541,189 mi)", 
+        "temperature":"-195 °C (-320 °F)",
+        "dayLength":"17 Earth hours", 
+        "yearLength":"84 Earth years", 
+        "numberOfMoons":"27"
+    },
+    {
+        "name":"Neptune",
+        "numberOrder":"8", 
+        "distanceFromSun":"4,501,000,000 km (2,796,791,736 mi)", 
+        "temperature":"-201 °C (-331 °F)",
+        "dayLength":"16 Earth hours", 
+        "yearLength":"165 Earth years", 
+        "numberOfMoons":"14"
+    }
+]
