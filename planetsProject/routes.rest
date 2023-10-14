@@ -1,0 +1,18 @@
+//LOCALHOST
+###
+GET http://localhost:3000 HTTP/1.1
+
+###Get all planets
+GET http://localhost:3000/planets HTTP/1.1
+
+
+
+
+//PRODUCTION Deploy
+### Get all planets
+GET https://lesson02-ybz1.onrender.com/planets
+
+
+### Get planets by id
+GET https://lesson02-ybz1.onrender.com/planets/6518c215d7cae14ab0f97e0f
+
