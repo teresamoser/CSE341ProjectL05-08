@@ -1,38 +1,62 @@
 //LOCALHOST
 ###
-GET http://localhost:3000 HTTP/1.1
+GET http://localhost:8080 HTTP/1.1
 
 ###Get all planets
-GET http://localhost:3000/planets HTTP/1.1
+GET http://localhost:8080/planets HTTP/1.1
+
+### Get planets by id
+GET https://localhost:8080/planets/652b4b28910e08ba7ffb46b4 HTTP/1.1
+
+###
+GET https://localhost:8080/planets/652b4b28910e08ba7ffb46b5 HTTP/1.1
+
+###
+GET https://localhost:8080/planets/652b4b28910e08ba7ffb46b6 HTTP/1.1
+
+###
+GET https://localhost:8080/planets/652b4b28910e08ba7ffb46b7 HTTP/1.1
+
+###
+GET https://localhost:8080/planets/652b4b28910e08ba7ffb46b8 HTTP/1.1
+
+###
+GET https://localhost:8080/planets/652b4b28910e08ba7ffb46b9 HTTP/1.1
+
+###
+GET https://localhost:8080/planets/652b4b28910e08ba7ffb46ba HTTP/1.1
+
+###
+GET https://localhost:8080/planets/652b4b28910e08ba7ffb46bb HTTP/1.1
 
 
 
 
 //PRODUCTION Deploy
 ### Get all planets
-GET https://personalproject-mpza.onrender.com/planets
+GET https://personalproject-mpza.onrender.com/planets HTTP/1.1
 
 
 ### Get planets by id
-GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46b4
+GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46b4 HTTP/1.1
 
 ###
-GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46b5
+GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46b5 HTTP/1.1
 
 ###
-GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46b6
+GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46b6 HTTP/1.1
 
 ###
-GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46b7
+GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46b7 HTTP/1.1
 
 ###
-GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46b8
+GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46b8 HTTP/1.1
 
 ###
-GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46b9
+GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46b9 HTTP/1.1
 
 ###
-GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46ba
+GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46ba HTTP/1.1
 
 ###
-GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46bb
+GET https://personalproject-mpza.onrender.com/planets/652b4b28910e08ba7ffb46bb HTTP/1.1
