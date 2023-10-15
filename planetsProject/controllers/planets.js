@@ -19,7 +19,7 @@ const getSingle = async (req, res) => {
 };
 
 const createPlanets = async (req, res) => {
-  const contact = {
+  const planets = {
     name: req.body.name,
     numberOrder: req.body.numberOrder,
     distanceFromSun: req.body.distanceFromSun,
@@ -28,7 +28,7 @@ const createPlanets = async (req, res) => {
     yearLength: req.body.yearLength,
     numberOfMoons: req.body.numberOfMoons
   };
-  const response = await mongodb.getDb().db().collection('planets').insertOne(planet);
+  const response = await mongodb.getDb().db().collection('planets').insertOne(planets);
   if (response.acknowledged) {
     res.status(201).json(response);
   } else {
@@ -57,7 +57,7 @@ const updatePlanets = async (req, res) => {
   if (response.modifiedCount > 0) {
     res.status(204).send();
   } else {
-    res.status(500).json(response.error || 'Some error occurred while updating the contact.');
+    res.status(500).json(response.error || 'Some error occurred while updating the planets.');
   }
 };
 
@@ -68,7 +68,7 @@ const deletePlanets = async (req, res) => {
   if (response.deletedCount > 0) {
     res.status(204).send();
   } else {
-    res.status(500).json(response.error || 'Some error occurred while deleting the contact.');
+    res.status(500).json(response.error || 'Some error occurred while deleting the planets.');
   }
 };
 
