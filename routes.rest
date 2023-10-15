@@ -6,28 +6,28 @@ GET http://localhost:8080 HTTP/1.1
 GET http://localhost:8080/planets HTTP/1.1
 
 ### Get planets by id
-GET https://localhost:8080/planets/652b4b28910e08ba7ffb46b4 HTTP/1.1
+GET http://localhost:8080/planets/652b4b28910e08ba7ffb46b4 HTTP/1.1
 
 ###
-GET https://localhost:8080/planets/652b4b28910e08ba7ffb46b5 HTTP/1.1
+GET http://localhost:8080/planets/652b4b28910e08ba7ffb46b5 HTTP/1.1
 
 ###
-GET https://localhost:8080/planets/652b4b28910e08ba7ffb46b6 HTTP/1.1
+GET http://localhost:8080/planets/652b4b28910e08ba7ffb46b6 HTTP/1.1
 
 ###
-GET https://localhost:8080/planets/652b4b28910e08ba7ffb46b7 HTTP/1.1
+GET http://localhost:8080/planets/652b4b28910e08ba7ffb46b7 HTTP/1.1
 
 ###
-GET https://localhost:8080/planets/652b4b28910e08ba7ffb46b8 HTTP/1.1
+GET http://localhost:8080/planets/652b4b28910e08ba7ffb46b8 HTTP/1.1
 
 ###
-GET https://localhost:8080/planets/652b4b28910e08ba7ffb46b9 HTTP/1.1
+GET http://localhost:8080/planets/652b4b28910e08ba7ffb46b9 HTTP/1.1
 
 ###
-GET https://localhost:8080/planets/652b4b28910e08ba7ffb46ba HTTP/1.1
+GET http://localhost:8080/planets/652b4b28910e08ba7ffb46ba HTTP/1.1
 
 ###
-GET https://localhost:8080/planets/652b4b28910e08ba7ffb46bb HTTP/1.1
+GET http://localhost:8080/planets/652b4b28910e08ba7ffb46bb HTTP/1.1
 
 
 
