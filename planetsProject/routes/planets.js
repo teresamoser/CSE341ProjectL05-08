@@ -7,10 +7,10 @@ router.get('/', planetsController.getAll);
 
 router.get('/:id', planetsController.getSingle);
 
-//router.post('/', planetsController.createContact);
+router.post('/', planetsController.createPlanets);
 
-//router.put('/:id', planetsController.updateContact);
+router.put('/:id', planetsController.updatePlanets);
 
-//router.delete('/:id', planetsController.deleteContact);
+router.delete('/:id', planetsController.deletePlanets);
 
 module.exports = router;

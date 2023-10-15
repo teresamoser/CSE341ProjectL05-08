@@ -5,7 +5,7 @@
       "description": "Planets API",
       "version": "1.0.0"
     },
-    "host": "lesson02-ybz1.onrender.com",
+    "host": "personalproject-mpza.onrender.com",
     "basePath": "/",
     "schemes": [
       "https"
@@ -21,7 +21,7 @@
           }
         }
       },
-      "/contacts/": {
+      "/planets/": {
         "get": {
           "description": "",
           "produces": [
@@ -42,19 +42,25 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "firstName": {
+                  "name": {
                     "example": "any"
                   },
-                  "lastName": {
+                  "numberOrder": {
                     "example": "any"
                   },
-                  "email": {
+                  "distanceFromSun": {
                     "example": "any"
                   },
-                  "favoriteColor": {
+                  "temperature": {
                     "example": "any"
                   },
-                  "birthday": {
+                  "dayLength": {
+                    "example": "any"
+                  },
+                  "yearLength": {
+                    "example": "any"
+                  },
+                  "numberOfMoons": {
                     "example": "any"
                   }
                 }
@@ -106,19 +112,25 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "firstName": {
+                  "name": {
                     "example": "any"
                   },
-                  "lastName": {
+                  "numberOrder": {
                     "example": "any"
                   },
-                  "email": {
+                  "distanceFromSun": {
                     "example": "any"
                   },
-                  "favoriteColor": {
+                  "temperature": {
                     "example": "any"
                   },
-                  "birthday": {
+                  "dayLength": {
+                    "example": "any"
+                  },
+                  "yearLength": {
+                    "example": "any"
+                  },
+                  "numberOfMoons": {
                     "example": "any"
                   }
                 }
