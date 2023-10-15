@@ -1,0 +1,57 @@
+[
+    {
+        "objective":"Lunar Orbit", 
+        "spacecraft":"Able 1",
+        "spacecraftMass":"84 pounds (38 kilograms)",
+        "missionDesign":"Advanced Research Projects Agency and U.S. Air Force Ballistic Missile Division", 
+        "launchDateTime":"Aug. 17, 1958 / 12:18 UT", 
+        "launchSite":"Cape Canaveral Air Force Station, Fla. / Launch Complex 17A", 
+        "scientificInstruments":"Magnetometer, Micrometeoroid Detector, Two Temperature Sensors, TV Camera"
+    },
+    {
+        "objective":"Lunar Orbit", 
+        "spacecraft":"Able 2",
+        "spacecraftMass":"84 pounds (38.3 kilograms)",
+        "missionDesign":"NASA / U.S. Air Force Ballistic Missile Division", 
+        "launchDateTime":"Oct. 11, 1958 / 08:42:13 UT", 
+        "launchSite":"Cape Canaveral Air Force Station, Fla. / Launch Complex 17A", 
+        "scientificInstruments":"Ion Chamber, Magnetometer, Micrometeoroid Detector, TV Camera, Two Temperature Sensors"
+    },
+    {
+        "objective":"Lunar Orbit", 
+        "spacecraft":"P-3 / Able IVB",
+        "spacecraftMass":"372 pounds (168.7 kilograms)",
+        "missionDesign":"NASA / U.S. Air Force Ballistic Missile Division", 
+        "launchDateTime":"Nov. 26, 1959 / 07:26 UT", 
+        "launchSite":"Cape Canaveral Air Force Station, Fla. / Launch Complex 14", 
+        "scientificInstruments":"High-Energy Radiation Counter, Ionization Chamber, Geiger-Mueller Tube, Low-Energy Radiation Counter, Two Magnetometers, Photo-Scanning Device, Micrometeoroid Detector, Aspect Indicator, Radio Receiver (to detect natural radio waves),Transponder (to measure electron densities)"
+    },
+    {
+        "objective":"Lunar Orbit", 
+        "spacecraft":"Pioneer P-31 / Able 5B",
+        "spacecraftMass":"388 pounds (176 kilograms)",
+        "missionDesign":"NASA / U.S. Air Force Ballistic Missile Division", 
+        "launchDateTime":"Dec. 15, 1960 / 09:11 UT", 
+        "launchSite":"Cape Canaveral Air Force Station, Fla. / Launch Complex 12", 
+        "scientificInstruments":"Micrometeoroid Detector, High-Energy Radiation Counter, Ionization Chamber, Geiger-Mueller Tube, Low-Energy Radiation Counter, Flux-Gate Magnetometer and a Spinsearch Coil Magnetometer, Sun Scanner, Plasma Probe, Scintillation Spectrometer, Solid State Detector"
+    },
+    {
+        "objective":"Study the plasma, particle and magnetic-field environment of the Moon and map the lunar gravity field.", 
+        "spacecraft":"Saturn V/ Apollo 15 Subsatellite",
+        "spacecraftMass":"35.6 kilograms",
+        "missionDesign":"NASA-Office of Manned Space Flight", 
+        "launchDateTime":"Aug. 4, 1971", 
+        "launchSite":"Cape Canaveral, Florida, USA | Launch Complex 39A", 
+        "scientificInstruments":"magnetometer, S-band transponder, charged-particle detectors"
+    },
+    {
+        "objective":"Study the Moon's environment", 
+        "spacecraft":"Saturn V/ Apollo 16 Subsatellite",
+        "spacecraftMass":"36.3 kilograms",
+        "missionDesign":"NASA-Office of Manned Space Flight", 
+        "launchDateTime":"Apr. 24, 1972", 
+        "launchSite":"Cape Canaveral, Florida, USA | Launch Complex 39A", 
+        "scientificInstruments":"magnetometer, S-band transponder, charged-particle detectors"
+    }
+
+]
