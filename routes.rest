@@ -6,28 +6,28 @@ GET http://localhost:8080 HTTP/1.1
 GET http://localhost:8080/planets HTTP/1.1
 
 ### Get planets by id
-GET http://localhost:8080/planets/6530a200910e08ba7fa5777a HTTP/1.1
+GET http://localhost:8080/planets/6530c371910e08ba7fe3b36e HTTP/1.1
 
 ###
-GET http://localhost:8080/planets/6530a200910e08ba7fa5777b HTTP/1.1
+GET http://localhost:8080/planets/6530c371910e08ba7fe3b36f HTTP/1.1
 
 ###
-GET http://localhost:8080/planets/6530a200910e08ba7fa5777c HTTP/1.1
+GET http://localhost:8080/planets/6530c371910e08ba7fe3b370 HTTP/1.1
 
 ###
-GET http://localhost:8080/planets/6530a200910e08ba7fa5777d HTTP/1.1
+GET http://localhost:8080/planets/6530c371910e08ba7fe3b371 HTTP/1.1
 
 ###
-GET http://localhost:8080/planets/6530a200910e08ba7fa5777e HTTP/1.1
+GET http://localhost:8080/planets/6530c371910e08ba7fe3b372 HTTP/1.1
 
 ###
-GET http://localhost:8080/planets/6530a200910e08ba7fa5777f HTTP/1.1
+GET http://localhost:8080/planets/6530c371910e08ba7fe3b373 HTTP/1.1
 
 ###
-GET http://localhost:8080/planets/6530a200910e08ba7fa57780 HTTP/1.1
+GET http://localhost:8080/planets/6530c371910e08ba7fe3b374 HTTP/1.1
 
 ###
-GET http://localhost:8080/planets/6530a200910e08ba7fa57781 HTTP/1.1
+GET http://localhost:8080/planets/6530c371910e08ba7fe3b375 HTTP/1.1
 
 
 
@@ -38,25 +38,25 @@ GET https://personalproject-mpza.onrender.com/planets HTTP/1.1
 
 
 ### Get planets by id
-GET https://personalproject-mpza.onrender.com/planets/6530a200910e08ba7fa5777a HTTP/1.1
+GET https://personalproject-mpza.onrender.com/planets/6530c371910e08ba7fe3b36e HTTP/1.1
 
 ###
-GET https://personalproject-mpza.onrender.com/planets/6530a200910e08ba7fa5777b HTTP/1.1
+GET https://personalproject-mpza.onrender.com/planets/6530c371910e08ba7fe3b36f HTTP/1.1
 
 ###
-GET https://personalproject-mpza.onrender.com/planets/6530a200910e08ba7fa5777c HTTP/1.1
+GET https://personalproject-mpza.onrender.com/planets/6530c371910e08ba7fe3b370 HTTP/1.1
 
 ###
-GET https://personalproject-mpza.onrender.com/planets/6530a200910e08ba7fa5777d HTTP/1.1
+GET https://personalproject-mpza.onrender.com/planets/6530c371910e08ba7fe3b371 HTTP/1.1
 
 ###
-GET https://personalproject-mpza.onrender.com/planets/6530a200910e08ba7fa5777e HTTP/1.1
+GET https://personalproject-mpza.onrender.com/planets/6530c371910e08ba7fe3b372 HTTP/1.1
 
 ###
-GET https://personalproject-mpza.onrender.com/planets/6530a200910e08ba7fa5777f HTTP/1.1
+GET https://personalproject-mpza.onrender.com/planets/6530c371910e08ba7fe3b373 HTTP/1.1
 
 ###
-GET https://personalproject-mpza.onrender.com/planets/6530a200910e08ba7fa57780 HTTP/1.1
+GET https://personalproject-mpza.onrender.com/planets/6530c371910e08ba7fe3b374 HTTP/1.1
 
 ###
-GET https://personalproject-mpza.onrender.com/planets/6530a200910e08ba7fa57781 HTTP/1.1
+GET https://personalproject-mpza.onrender.com/planets/6530c371910e08ba7fe3b375 HTTP/1.1
