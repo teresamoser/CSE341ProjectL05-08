@@ -2,7 +2,7 @@ const mongodb = require('../db/connect');
 const ObjectId = require('mongodb').ObjectId;
 
 const getAll = async (req, res) => {
-  const result = await mongodb.getDb().db().collection('test2.planets').find();
+  const result = await mongodb.getDb().db().collection('planets').find();
   result.toArray().then((lists) => {
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json(lists);
@@ -52,7 +52,7 @@ const updatePlanets = async (req, res) => {
     .getDb()
     .db()
     .collection('planets')
-    .replaceOne({ _id: userId }, contact);
+    .replaceOne({ _id: userId }, planet);
   console.log(response);
   if (response.modifiedCount > 0) {
     res.status(204).send();
