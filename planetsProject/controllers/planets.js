@@ -52,7 +52,7 @@ const updatePlanets = async (req, res) => {
     .getDb()
     .db()
     .collection('planets')
-    .replaceOne({ _id: userId }, planet);
+    .replaceOne({ _id: userId }, planets);
   console.log(response);
   if (response.modifiedCount > 0) {
     res.status(204).send();
