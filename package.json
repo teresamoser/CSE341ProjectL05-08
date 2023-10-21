@@ -18,6 +18,7 @@
         "dotenv": "^16.0.0",
         "express": "^4.16.3",
         "mongodb": "^4.4.0",
+        "mongoose": "^7.6.3",
         "node.js": "^0.0.1-security",
         "swagger-ui-express": "^4.6.3"
     },

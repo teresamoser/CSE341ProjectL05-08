@@ -28,7 +28,7 @@ const createSpacecraft = async (req, res) => {
     launchSite: req.body.launchSite,
     scientificInstruments: req.body.scientificInstruments
   };
-  const response = await mongodb.getDb().db().collection('spacecraft').insertOne(spacecraft;
+  const response = await mongodb.getDb().db().collection('spacecraft').insertOne(spacecraft);
   if (response.acknowledged) {
     res.status(201).json(response);
   } else {
