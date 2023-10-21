@@ -70,26 +70,47 @@ GET http://localhost:3000 HTTP/1.1
 GET http://localhost:3000/spacecraft HTTP/1.1
 
 ### Get spacecraft by id
-GET http://localhost:3000/planets/6530c371910e08ba7fe3b36e HTTP/1.1
+GET http://localhost:3000/planets/6534488bbd87e66f0e0c83a9 HTTP/1.1
 
 ###
-GET http://localhost:3000/planets/6530c371910e08ba7fe3b36f HTTP/1.1
+GET http://localhost:3000/planets/6534488bbd87e66f0e0c83aa HTTP/1.1
 
 ###
-GET http://localhost:3000/planets/6530c371910e08ba7fe3b370 HTTP/1.1
+GET http://localhost:3000/planets/6534488bbd87e66f0e0c83ab HTTP/1.1
 
 ###
-GET http://localhost:3000/planets/6530c371910e08ba7fe3b371 HTTP/1.1
+GET http://localhost:3000/planets/6534488bbd87e66f0e0c83ac HTTP/1.1
 
 ###
-GET http://localhost:3000/planets/6530c371910e08ba7fe3b372 HTTP/1.1
+GET http://localhost:3000/planets/6534488bbd87e66f0e0c83ad HTTP/1.1
 
 ###
-GET http://localhost:3000/planets/6530c371910e08ba7fe3b373 HTTP/1.1
+GET http://localhost:3000/planets/6534488bbd87e66f0e0c83ae HTTP/1.1
+
+
+
+//PRODUCTION Deploy for Spacecraft
+### Get all spacecraft
+GET https://personalproject-mpza.onrender.com/planets HTTP/1.1
+
+
+### Get spacecraft by id
+GET https://personalproject-mpza.onrender.com/planets/6534488bbd87e66f0e0c83a9 HTTP/1.1
 
 ###
-GET http://localhost:3000/planets/6530c371910e08ba7fe3b374 HTTP/1.1
+GET https://personalproject-mpza.onrender.com/planets/6534488bbd87e66f0e0c83aa HTTP/1.1
 
 ###
-GET http://localhost:3000/planets/6530c371910e08ba7fe3b375 HTTP/1.1
+GET https://personalproject-mpza.onrender.com/planets/6534488bbd87e66f0e0c83ab HTTP/1.1
+
+###
+GET https://personalproject-mpza.onrender.com/planets/6534488bbd87e66f0e0c83ac HTTP/1.1
+
+###
+GET https://personalproject-mpza.onrender.com/planets/6534488bbd87e66f0e0c83ad HTTP/1.1
+
+###
+GET https://personalproject-mpza.onrender.com/planets/6534488bbd87e66f0e0c83ae HTTP/1.1
+
+
 
