@@ -19,7 +19,7 @@ const getSingle = async (req, res) => {
 };
 
 const createSpacecraft = async (req, res) => {
-  const planets = {
+  const spacecraft = {
     objective: req.body.objective,
     spacecraft: req.body.spacecraft,
     spacecraftMass: req.body.spacecraftMass,
