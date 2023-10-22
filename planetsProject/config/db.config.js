@@ -1,6 +1,6 @@
-// const dotenv = require('dotenv');
-// dotenv.config();
+const dotenv = require('dotenv');
+dotenv.config();
 
-// module.exports = {
-//   url: process.env.MONGODB_URI,
-// };
+module.exports = {
+  url: process.env.MONGODB_URI,
+};

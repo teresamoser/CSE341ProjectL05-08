@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Planets API'
   },
-  host: 'personalproject-mpza.onrender.com',
+  host: 'project5to8.onrender.com',
   schemes: ['https']
 };
 
