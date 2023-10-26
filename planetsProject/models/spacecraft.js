@@ -1,5 +1,5 @@
 module.exports = (mongoose) => {
-    const Spacecraft = mongoose.model(
+    const Spacecraft = mongoose.models(
       'spacecraft',
       mongoose.Schema({
         objective: {

@@ -5,7 +5,7 @@ var express = require("express"),
     LocalStrategy = require("passport-local"), 
     passportLocalMongoose =  
         require("passport-local-mongoose") 
-const User = require("./model/User"); 
+const User = require("./models/User"); 
 var app = express(); 
   
 mongoose.connect("mongodb://localhost/27017"); 

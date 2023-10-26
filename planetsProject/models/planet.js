@@ -1,5 +1,5 @@
 module.exports = (mongoose) => {
-    const Planets = mongoose.model(
+    const Planets = mongoose.models(
       'planets',
       mongoose.Schema({
         name: {

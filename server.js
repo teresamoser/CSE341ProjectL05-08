@@ -53,7 +53,7 @@ const collection_structure = new Schema({
 }) 
 
 // Creating collection 
-const collections = mongoose.model( 
+const collections = mongoose.models( 
 		"GFG2", collection_structure) 
 
 // Inserting one document 
