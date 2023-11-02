@@ -3,8 +3,8 @@ var express = require("express"),
     passport = require("passport"), 
     bodyParser = require("body-parser"), 
     LocalStrategy = require("passport-local"), 
-    passportLocalMongoose =  
-        require("passport-local-mongoose") 
+    passportLocalMongoose = require("passport-local-mongoose") 
+
 const User = require("./models/User"); 
 var app = express(); 
   
