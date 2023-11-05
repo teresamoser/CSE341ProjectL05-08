@@ -34,32 +34,32 @@ GET http://localhost:3000/planets/653444dcbd87e66f0e061e45 HTTP/1.1
 
 //PRODUCTION Deploy for Planets
 ### Get all planets
-GET https://project5to8.onrender.com/planets HTTP/1.1
+GET https://planetsproject.onrender.com/planets HTTP/1.1
 
 
 ### Get planets by id
-GET https://project5to8.onrender.com/planets/653444dcbd87e66f0e061e3e HTTP/1.1
+GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e3e HTTP/1.1
 
 ###
-GET https://project5to8.onrender.com/planets/653444dcbd87e66f0e061e3f HTTP/1.1
+GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e3f HTTP/1.1
 
 ###
-GET https://project5to8.onrender.com/planets/653444dcbd87e66f0e061e40 HTTP/1.1
+GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e40 HTTP/1.1
 
 ###
-GET https://project5to8.onrender.com/planets/653444dcbd87e66f0e061e41 HTTP/1.1
+GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e41 HTTP/1.1
 
 ###
-GET https://project5to8.onrender.com/planets/653444dcbd87e66f0e061e42 HTTP/1.1
+GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e42 HTTP/1.1
 
 ###
-GET https://project5to8.onrender.com/planets/653444dcbd87e66f0e061e43 HTTP/1.1
+GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e43 HTTP/1.1
 
 ###
-GET https://project5to8.onrender.com/planets/653444dcbd87e66f0e061e44 HTTP/1.1
+GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e44 HTTP/1.1
 
 ###
-GET https://project5to8.onrender.com/planets/653444dcbd87e66f0e061e45 HTTP/1.1
+GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e45 HTTP/1.1
 
 
 //LOCALHOST for spacecraft
@@ -91,26 +91,26 @@ GET http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83ae HTTP/1.1
 
 //PRODUCTION Deploy for Spacecraft
 ### Get all spacecraft
-GET https://project5to8.onrender.com/spacecraft HTTP/1.1
+GET https://planetsproject.onrender.com/spacecraft HTTP/1.1
 
 
 ### Get spacecraft by id
-GET https://project5to8.onrender.com/pspacecraft/6534488bbd87e66f0e0c83a9 HTTP/1.1
+GET https://planetsproject.onrender.com/pspacecraft/6534488bbd87e66f0e0c83a9 HTTP/1.1
 
 ###
-GET https://project5to8.onrender.com/spacecraft/6534488bbd87e66f0e0c83aa HTTP/1.1
+GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83aa HTTP/1.1
 
 ###
-GET https://project5to8.onrender.com/spacecraft/6534488bbd87e66f0e0c83ab HTTP/1.1
+GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ab HTTP/1.1
 
 ###
-GET https://project5to8.onrender.com/spacecraft/6534488bbd87e66f0e0c83ac HTTP/1.1
+GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ac HTTP/1.1
 
 ###
-GET https://project5to8.onrender.com/spacecraft/6534488bbd87e66f0e0c83ad HTTP/1.1
+GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ad HTTP/1.1
 
 ###
-GET https://project5to8.onrender.com/spacecraft/6534488bbd87e66f0e0c83ae HTTP/1.1
+GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ae HTTP/1.1
 
 
 
