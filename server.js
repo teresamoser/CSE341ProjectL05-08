@@ -2,9 +2,9 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongodb = require('./planetsProject/db/connect');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 const app = express();
-//const db = require('./planetsProject/models');
+const db = require('./planetsProject/models');
 
 app
   .use(bodyParser.json())

@@ -3,21 +3,21 @@ const router = express.Router();
 const app = express();
 
 //var router = require('express').Router();
-const { auth, requiresAuth } = require('express-openid-connect');
+const { requiresAuth } = require('express-openid-connect');
 const dotenv = require ('dotenv');
 
 router.use('/', require('./swagger'));
 router.use('/planets', require('./planets'));
 router.use('/spacecraft', require('./spacecraft'));
 
-router.get('/', function (req, res, next) {
+router.get('/', function (req, res) {
   res.render('index', {
     title: 'Auth0 Webapp sample Nodejs',
     isAuthenticated: req.oidc.isAuthenticated()
   });
 });
 
-router.get('/profile', requiresAuth(), function (req, res, next) {
+router.get('/profile', requiresAuth(), function (req, res) {
   res.render('profile', {
     userProfile: JSON.stringify(req.oidc.user, null, 2),
     title: 'Profile page'
@@ -49,17 +49,17 @@ app.get('/', (req, res) => {
     res.send('Node js file upload rest apis');
 });
  
-app.post('/register', signupValidation, (req, res, next) => {
+app.post("/register", signupValidation, () => {
    // your registration code
 });
  
  
-app.post('/login', loginValidation, (req, res, next) => {
+app.post('/login', loginValidation, () => {
    // your login code
 });
  
 // Handling Errors
-app.use((err, req, res, next) => {
+app.use((err, res) => {
     // console.log(err);
     err.statusCode = err.statusCode || 500;
     err.message = err.message || "Internal Server Error";
