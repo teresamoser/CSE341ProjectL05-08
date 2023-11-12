@@ -49,7 +49,7 @@ app.get('/', (req, res) => {
     res.send('Node js file upload rest apis');
 });
  
-app.post("/register", signupValidation, () => {
+app.post('/register', signupValidation, () => {
    // your registration code
 });
  
