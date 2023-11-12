@@ -1,8 +1,8 @@
 const express = require('express');
-// const router = express.Router();
+const router = express.Router();
 const app = express();
 
-var router = require('express').Router();
+//var router = require('express').Router();
 const { auth, requiresAuth } = require('express-openid-connect');
 const dotenv = require ('dotenv');
 
