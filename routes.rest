@@ -1,116 +1,111 @@
 //LOCALHOST for planets
-###
-GET http://localhost:3000/ HTTP/1.1
+### LOCAL Get api-docs
+GET http://localhost:3000/api-docs 
 
-###Get all planets
-GET http://localhost:3000/planets HTTP/1.1
+### GET all planets
+GET http://localhost:3000/planets 
 
-### Get planets by id
+### GET planet by ID
 GET http://localhost:3000/planets/653444dcbd87e66f0e061e3e HTTP/1.1
 
-###
-GET http://localhost:3000/planets/653444dcbd87e66f0e061e3f HTTP/1.1
+### CREATE New planet
+POST http://localhost:3000/planet HTTP/1.1
+content-type: application/json
 
-###
-GET http://localhost:3000/planets/653444dcbd87e66f0e061e40 HTTP/1.1
+{
+    "name":"Neptune",
+    "numberOrder":"8", 
+    "distanceFromSun":"4,501,000,000 km (2,796,791,736 mi)", 
+    "temperature":"-201 °C (-331 °F)",
+    "dayLength":"16 Earth hours", 
+    "yearLength":"165 Earth years", 
+     "numberOfMoons":"14"
+}
 
-###
-GET http://localhost:3000/planets/653444dcbd87e66f0e061e41 HTTP/1.1
-
-###
-GET http://localhost:3000/planets/653444dcbd87e66f0e061e42 HTTP/1.1
-
-###
-GET http://localhost:3000/planets/653444dcbd87e66f0e061e43 HTTP/1.1
-
-###
-GET http://localhost:3000/planets/653444dcbd87e66f0e061e44 HTTP/1.1
-
-###
-GET http://localhost:3000/planets/653444dcbd87e66f0e061e45 HTTP/1.1
+### Delete Appointment - MUST UPDATE ID!!!
+DELETE http://localhost:3000/planet/653444dcbd87e66f0e061e45
 
 
 
-
-//PRODUCTION Deploy for Planets
-### Get all planets
-GET https://planetsproject.onrender.com/planets HTTP/1.1
-
-
-### Get planets by id
-GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e3e HTTP/1.1
-
-###
-GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e3f HTTP/1.1
-
-###
-GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e40 HTTP/1.1
-
-###
-GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e41 HTTP/1.1
-
-###
-GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e42 HTTP/1.1
-
-###
-GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e43 HTTP/1.1
-
-###
-GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e44 HTTP/1.1
-
-###
-GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e45 HTTP/1.1
+# //PRODUCTION Deploy for Planets
+# ### Get all planets
+# GET https://planetsproject.onrender.com/planets HTTP/1.1
 
 
-//LOCALHOST for spacecraft
-###
-GET http://localhost:3000 HTTP/1.1
+# ### Get planets by id
+# GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e3e HTTP/1.1
 
-###Get all spacecraft
-GET http://localhost:3000/spacecraft HTTP/1.1
+# ###
+# GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e3f HTTP/1.1
 
-### Get spacecraft by id
-GET http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83a9 HTTP/1.1
+# ###
+# GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e40 HTTP/1.1
 
-###
-GET http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83aa HTTP/1.1
+# ###
+# GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e41 HTTP/1.1
 
-###
-GET http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83ab HTTP/1.1
+# ###
+# GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e42 HTTP/1.1
 
-###
-GET http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83ac HTTP/1.1
+# ###
+# GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e43 HTTP/1.1
 
-###
-GET http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83ad HTTP/1.1
+# ###
+# GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e44 HTTP/1.1
 
-###
-GET http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83ae HTTP/1.1
-
+# ###
+# GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e45 HTTP/1.1
 
 
-//PRODUCTION Deploy for Spacecraft
-### Get all spacecraft
-GET https://planetsproject.onrender.com/spacecraft HTTP/1.1
+# //LOCALHOST for spacecraft
+# ###
+# GET http://localhost:3000 HTTP/1.1
+
+# ###Get all spacecraft
+# GET http://localhost:3000/spacecraft HTTP/1.1
+
+# ### Get spacecraft by id
+# GET http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83a9 HTTP/1.1
+
+# ###
+# GET http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83aa HTTP/1.1
+
+# ###
+# GET http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83ab HTTP/1.1
+
+# ###
+# GET http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83ac HTTP/1.1
+
+# ###
+# GET http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83ad HTTP/1.1
+
+# ###
+# GET http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83ae HTTP/1.1
 
 
-### Get spacecraft by id
-GET https://planetsproject.onrender.com/pspacecraft/6534488bbd87e66f0e0c83a9 HTTP/1.1
 
-###
-GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83aa HTTP/1.1
+# //PRODUCTION Deploy for Spacecraft
+# ### Get all spacecraft
+# GET https://planetsproject.onrender.com/spacecraft HTTP/1.1
 
-###
-GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ab HTTP/1.1
 
-###
-GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ac HTTP/1.1
+# ### Get spacecraft by id
+# GET https://planetsproject.onrender.com/pspacecraft/6534488bbd87e66f0e0c83a9 HTTP/1.1
 
-###
-GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ad HTTP/1.1
+# ###
+# GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83aa HTTP/1.1
 
-###
-GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ae HTTP/1.1
+# ###
+# GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ab HTTP/1.1
+
+# ###
+# GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ac HTTP/1.1
+
+# ###
+# GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ad HTTP/1.1
+
+# ###
+# GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ae HTTP/1.1
 
 
 
