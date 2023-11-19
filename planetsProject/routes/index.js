@@ -13,7 +13,7 @@ const spacecraft = require('./spacecraft');
 // const auth0 = require('./auth0');
 
 router.use('/api-docs', swagger);
-router.use('/planets', appointments);
+router.use('/planets', planets);
 router.use('/spacecraft', spacecraft);
 // router.use('/users', users);
 router.use('/', homeController.home);
