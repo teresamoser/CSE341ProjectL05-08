@@ -1,0 +1,9 @@
+body {
+    background-image: image-set('./image/space.jpeg');
+    }
+input {
+    background-color:cornflowerblue;
+    }
+h1, h2 {
+    color:cornflowerblue;
+    }
