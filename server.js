@@ -1,14 +1,14 @@
 const express = require('express');
-const bodyParser = require('body-parser');
+const app = express();
 const mongodb = require('./planetsProject/db/connect');
+const bodyParser = require('body-parser');
 
 const port = process.env.PORT;
-const app = express();
-const db = require('./planetsProject/models');
 
 app
   .use(bodyParser.json())
   .use((req, res, next) => {
+    // Allows access from any website
     res.setHeader('Access-Control-Allow-Origin', '*');
     next();
   })

@@ -2,14 +2,19 @@ const express = require('express');
 const router = express.Router();
 
 const spacecraftController = require('../controllers/spacecraft');
+const validation = require('../middleware/validate'); 
 
-router.get('/', spacecraftController.getAll);
+router.get('/', spacecraftController.getAllSpacecraft);
 
-router.get('/:id', spacecraftController.getSingle);
+router.get('/:id', spacecraftController.getSingleSpacecraft);
 
-router.post('/', spacecraftController.createSpacecraft);
+router.post('/', 
+    validation.savespacecraft,
+    spacecraftController.createSpacecraft);
 
-router.put('/:id', spacecraftController.updateSpacecraft);
+router.put('/:id', 
+    validation.savespacecraft,
+    spacecraftController.updateSpacecraft);
 
 router.delete('/:id', spacecraftController.deleteSpacecraft);
 
