@@ -26,6 +26,7 @@ content-type: application/json
 DELETE http://localhost:3000/planet/653444dcbd87e66f0e061e45
 
 
+
 //LOCALHOST for Spacecraft
 ### LOCAL Get api-docs
 GET http://localhost:3000/api-docs 
@@ -56,7 +57,7 @@ DELETE http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83ae
 
 
 
-//PRODUCTION for planets
+//PRODUCTION for Planets
 ### RENDER Get api-docs
 GET https://planetsproject.onrender.com/api-docs 
 

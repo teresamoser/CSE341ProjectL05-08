@@ -2,7 +2,6 @@
 const mongodb = require('../db/connect');// is a reference to my database connection
 const ObjectId = require('mongodb').ObjectId;// is a type provided by the MongoDB driver. Allows me to work with MongoDB's unique identifiers.
 
-
 // Centralized error response function
 function errorResponse(res, statusCode, message) {
   return res.status(statusCode).json({ error: message });
