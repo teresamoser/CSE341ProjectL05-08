@@ -12,7 +12,12 @@ function errorResponse(res, statusCode, message) {
 const getAllSpacecraft = async (req, res) => {
   try{
     // add the database
-    const result = await mongodb.getDb().db().collection('spacecraft').find().toArray();
+    const result = await mongodb
+      .getDb()
+      .db()
+      .collection('spacecraft')
+      .find()
+      .toArray();
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json(result);
   } catch (error){
@@ -33,7 +38,7 @@ const getSingleSpacecraft = async (req, res) => {
       .find({ _id: spacecraftId })
       .toArray();
     res.setHeader('Content-Type', 'application/json');
-    res.status(200).json(lists[0]);
+    res.status(200).json(result[0]);
   } catch (error) {
     console.error(error);
     errorResponse(res, 500, 'Internal Server Error');
@@ -49,21 +54,21 @@ const createSpacecraft = async (req, res) => {
     //   return errorResponse(res, 401, 'Unauthorized. Please login to schedule an appointment.');
     // }
     // add the database
-  const spacecraft = req.body;
-  const response = await mongodb
-    .getDb()
-    .db()
-    .collection('spacecraft')
-    .insertOne(spacecraft);
+    const spacecraft = req.body;
+    const response = await mongodb
+      .getDb()
+      .db()
+      .collection('spacecraft')
+      .insertOne(spacecraft);
 
-  if (response.acknowledged) {
-    const newSpacecraftId = response.insertedId;
-      res
-      .status(201)
-      .json({ message: 'Spacecraft created successfully', SpacecraftId: newSpacecraftId });
-    } else {
-      errorResponse(res, 500, 'Failed to create Spacecraft');
-    }
+    if (response.acknowledged) {
+      const newSpacecraftId = response.insertedId;
+        res
+        .status(201)
+        .json({ message: 'Spacecraft created successfully', SpacecraftId: newSpacecraftId });
+      } else {
+        errorResponse(res, 500, 'Failed to create Spacecraft');
+      }
   } catch (error) {
     console.error(error);
     errorResponse(res, 500, 'Internal Server Error');

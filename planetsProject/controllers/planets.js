@@ -11,7 +11,12 @@ function errorResponse(res, statusCode, message) {
 const getAllPlanets = async (req, res) => {
   try{
     // add the database
-    const result = await mongodb.getDb().db().collection('planets').find().toArray();
+    const result = await mongodb
+      .getDb()
+      .db()
+      .collection('planets')
+      .find()
+      .toArray();
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json(result);
   } catch (error){
@@ -32,7 +37,7 @@ const getSinglePlanet = async (req, res) => {
       .find({ _id: spacecraftId })
       .toArray();
       res.setHeader('Content-Type', 'application/json');
-      res.status(200).json(lists[0]);
+      res.status(200).json(result[0]);
     } catch (error) {
       console.error(error);
       errorResponse(res, 500, 'Internal Server Error');
@@ -61,7 +66,7 @@ const createPlanets = async (req, res) => {
       .status(201)
       .json({ message: 'Planet created successfully', PlanetId: newPlanetId });
       } else {
-        errorResponse(res, 500, 'Failed to create Spacecraft');
+        errorResponse(res, 500, 'Failed to create Planet');
       }
     } catch (error) {
       console.error(error);
@@ -89,7 +94,7 @@ const updatePlanets = async (req, res) => {
       if (response.matchedCount === 1 && response.modifiedCount === 1) {
         res.status(204).json({ message: 'Planet updated successfully' });
         } else {
-          errorResponse(res, 404, 'Planeet not found or not updated');
+          errorResponse(res, 404, 'Planet not found or not updated');
         }
       } catch (error) {
         console.error(error);
