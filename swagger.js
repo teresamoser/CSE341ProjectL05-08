@@ -9,8 +9,8 @@ const doc = {
   schemes: ['https']
 };
 
-const outputFile = '../swagger.json';
-const endpointsFiles = ['.planetsProject/routes/index.js'];
+const outputFile = './planetsProject/swagger.json';
+const endpointsFiles = ['.planetsProject/routes/index'];
 
 /* NOTE: if you use the express Router, you must pass in the 
    'endpointsFiles' only the root file where the route starts,

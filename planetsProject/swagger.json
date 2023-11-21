@@ -34,7 +34,7 @@
           }
         },
         "post": {
-          "description": "",
+          "description": "Create new planet entry",
           "parameters": [
             {
               "name": "body",
@@ -79,7 +79,7 @@
       },
       "/planets/{id}": {
         "get": {
-          "description": "",
+          "description": "Request planet by ID",
           "produces": [
             "application/json"
           ],
@@ -98,7 +98,7 @@
           }
         },
         "put": {
-          "description": "",
+          "description": "Planet entry",
           "parameters": [
             {
               "name": "id",
@@ -147,7 +147,7 @@
           }
         },
         "delete": {
-          "description": "",
+          "description": "Delete planet entry",
           "parameters": [
             {
               "name": "id",
@@ -168,7 +168,7 @@
       },
       "/spacecraft/": {
         "get": {
-          "description": "",
+          "description": "Request Spacecraft",
           "produces": [
             "application/json"
           ],
@@ -224,7 +224,7 @@
       },
       "/spacecraft/{id}": {
         "get": {
-          "description": "",
+          "description": "Request Spacecraft by ID",
           "produces": [
             "application/json"
           ],
@@ -243,7 +243,7 @@
           }
         },
         "put": {
-          "description": "",
+          "description": "Spacecraft entry",
           "parameters": [
             {
               "name": "id",
@@ -292,7 +292,7 @@
           }
         },
         "delete": {
-          "description": "",
+          "description": "Delete Spacecraft Entry",
           "parameters": [
             {
               "name": "id",
