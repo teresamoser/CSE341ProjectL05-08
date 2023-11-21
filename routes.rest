@@ -35,7 +35,7 @@ GET http://localhost:3000/api-docs
 GET http://localhost:3000/spacecraft 
 
 ### GET Spacecraft by ID
-GET http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83ae HTTP/1.1
+GET http://localhost:3000/spacecraft/655c5cd70f0c052897baadce HTTP/1.1
 
 ### CREATE New Spacecraft
 POST http://localhost:3000/spacecraft HTTP/1.1
@@ -52,7 +52,7 @@ content-type: application/json
 }
 
 ### Delete Appointment - MUST UPDATE ID!!!
-DELETE http://localhost:3000/spacecraft/6534488bbd87e66f0e0c83ae
+DELETE http://localhost:3000/spacecraft/655c5cd70f0c052897baadce"
 
 
 
