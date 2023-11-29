@@ -13,7 +13,7 @@
     "paths": {
       "/api-docs": {
         "get": {
-          "description": "",
+          "description": "API documentation",
           "responses": {
             "default": {
               "description": ""
@@ -23,7 +23,7 @@
       },
       "/planets/": {
         "get": {
-          "description": "",
+          "description": "Request all of the planets information",
           "produces": [
             "application/json"
           ],
@@ -79,7 +79,7 @@
       },
       "/planets/{id}": {
         "get": {
-          "description": "Request planet by ID",
+          "description": "Request individual planet information by ID",
           "produces": [
             "application/json"
           ],
@@ -98,7 +98,7 @@
           }
         },
         "put": {
-          "description": "Planet entry",
+          "description": "Update any of the Planets entries",
           "parameters": [
             {
               "name": "id",
@@ -168,7 +168,7 @@
       },
       "/spacecraft/": {
         "get": {
-          "description": "Request Spacecraft",
+          "description": "Request all the Spacecraft information",
           "produces": [
             "application/json"
           ],
@@ -179,7 +179,7 @@
           }
         },
         "post": {
-          "description": "",
+          "description": "Create a new Spacecraft entry",
           "parameters": [
             {
               "name": "body",
@@ -224,7 +224,7 @@
       },
       "/spacecraft/{id}": {
         "get": {
-          "description": "Request Spacecraft by ID",
+          "description": "Request Spacecraft information by ID",
           "produces": [
             "application/json"
           ],
@@ -243,7 +243,7 @@
           }
         },
         "put": {
-          "description": "Spacecraft entry",
+          "description": "Update any of the Spacecraft entries",
           "parameters": [
             {
               "name": "id",

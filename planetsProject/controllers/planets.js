@@ -34,7 +34,7 @@ const getSinglePlanet = async (req, res) => {
       .getDb()
       .db()
       .collection('planets')
-      .find({ _id: spacecraftId })
+      .find({ _id: planetId })
       .toArray();
       res.setHeader('Content-Type', 'application/json');
       res.status(200).json(result[0]);
