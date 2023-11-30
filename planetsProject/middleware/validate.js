@@ -1,6 +1,5 @@
 const validator = require('../helpers/validate');
 const ObjectId = require('mongodb').ObjectId;
-// const { requiresAuth } = require('express-openid-connect');
 
 const checkId = (req, res, next) => {
   // checks to see if the id entered is a valid Mongodb ID
@@ -12,10 +11,38 @@ const checkId = (req, res, next) => {
   }
 };
 
-const saveAppointment = (req, res, next) => {
+const savePlanets = (req, res, next) => {
   const validationRule = {
-    dateTime: 'required|string',
-    purpose: 'required|string|max:500'
+    name: 'required|string',
+    numberOrder: 'required|numeric',
+    distanceFromSun: 'required|string',
+    temperature: 'required|string',
+    dayLength: 'required|string',
+    yearLength: 'required|string',
+    numberOfMoons: 'required|numeric'
+  };
+  validator(req.body, validationRule, {}, (err, status) => {
+    if (!status) {
+      res.status(400).send({
+        success: false,
+        message: 'Validation failed',
+        data: err
+      });
+    } else {
+      next();
+    }
+  });
+};
+
+const saveSpacecraft = (req, res, next) => {
+  const validationRule = {
+    objective: 'required|string',
+    spacecraft: 'required|string',
+    spacecraftMass: 'required|string',
+    missionDesign: 'required|string',
+    launchDateTime: 'required|string',
+    launchSite: 'required|string',
+    scientificInstruments: 'required|string'
   };
   validator(req.body, validationRule, {}, (err, status) => {
     if (!status) {
@@ -36,5 +63,6 @@ const saveAppointment = (req, res, next) => {
 
 module.exports = {
   checkId,
-  saveAppointment
+  savePlanets,
+  saveSpacecraft
 };
