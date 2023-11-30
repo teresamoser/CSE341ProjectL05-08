@@ -23,7 +23,12 @@ const config = {
 };
 
 const port = process.env.PORT || 3000;
-if (!config.baseURL && !process.env.BASE_URL && process.env.PORT && process.env.NODE_ENV !== 'production') {
+if (
+  !config.baseURL &&
+  !process.env.BASE_URL &&
+  process.env.PORT &&
+  process.env.NODE_ENV !== 'production'
+) {
   config.baseURL = `http://localhost:${port}`;
 }
 
@@ -45,7 +50,7 @@ app.use(function (req, res, next) {
 });
 
 // Error handlers
-app.use(function (err, req, res, next) {
+app.use(function (err, req, res) {
   res.status(err.status || 500);
   res.render('error', {
     message: err.message,
@@ -53,7 +58,6 @@ app.use(function (err, req, res, next) {
   });
 });
 
-http.createServer(app)
-  .listen(port, () => {
-    console.log(`Listening on ${config.baseURL}`);
-  });
+http.createServer(app).listen(port, () => {
+  console.log(`Listening on ${config.baseURL}`);
+});
