@@ -1,2 +1,10 @@
 node_modules
 .env
+auth0
+{
+  "sub": "github|35321696",
+  "nickname": "teresamoser",
+  "name": "Teresa Moser",
+  "picture": "https://avatars.githubusercontent.com/u/35321696?v=4",
+  "updated_at": "2023-11-30T04:00:21.136Z"
+}
