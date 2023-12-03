@@ -1,5 +1,7 @@
 body {
     background-image: image-set('./image/space.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 input {
     background-color:cornflowerblue;

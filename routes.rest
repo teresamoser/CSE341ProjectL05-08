@@ -1,9 +1,9 @@
 //LOCALHOST for planets
 ### LOCAL Get api-docs
-GET http://localhost:8080/api-docs 
+GET http://localhost:8080/api-docs HTTP/1.1
 
 ### GET all planets
-GET http://localhost:8080/planets 
+GET http://localhost:8080/planets HTTP/1.1
 
 ### GET planet by ID
 GET http://localhost:8080/planets/653444dcbd87e66f0e061e3e HTTP/1.1
@@ -23,19 +23,19 @@ content-type: application/json
 }
 
 ### Delete Appointment - MUST UPDATE ID!!!
-DELETE http://localhost:8080/planet/653444dcbd87e66f0e061e45
+DELETE http://localhost:8080/planet/653444dcbd87e66f0e061e45 HTTP/1.1
 
 
 
 //LOCALHOST for Spacecraft
 ### LOCAL Get api-docs
-GET http://localhost:8080/api-docs 
+GET http://localhost:8080/api-docs HTTP/1.1
 
 ### GET all Spacecraft
-GET http://localhost:8080/spacecraft 
+GET http://localhost:8080/spacecraft HTTP/1.1
 
 ### GET Spacecraft by ID
-GET http://localhost:8080/spacecraft/655c5cd70f0c052897baadce HTTP/1.1
+GET http://localhost:8080/spacecraft/655c39bc63470421972f73d6 HTTP/1.1
 
 ### CREATE New Spacecraft
 POST http://localhost:8080/spacecraft HTTP/1.1
@@ -52,23 +52,23 @@ content-type: application/json
 }
 
 ### Delete Appointment - MUST UPDATE ID!!!
-DELETE http://localhost:8080/spacecraft/655c5cd70f0c052897baadce"
+DELETE http://localhost:8080/spacecraft/65697d0dc51b4ab061963cf8
 
 
 
 
 //PRODUCTION for Planets
 ### RENDER Get api-docs
-GET https://planetsproject.onrender.com/api-docs 
+GET https://planetsproject.onrender.com/api-docs HTTP/1.1
 
 ### GET all planets
-GET https://planetsproject.onrender.com/planets 
+GET https://planetsproject.onrender.com/planets HTTP/1.1
 
 ### GET planet by ID
 GET https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e3e HTTP/1.1
 
 ### CREATE New planet
-POST https://planetsproject.onrender.com/planet HTTP/1.1
+POST https://planetsproject.onrender.com/planets HTTP/1.1
 content-type: application/json
 
 {
@@ -82,16 +82,16 @@ content-type: application/json
 }
 
 ### Delete Appointment - MUST UPDATE ID!!!
-DELETE https://planetsproject.onrender.com/planet/653444dcbd87e66f0e061e45
+DELETE https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e45
 
 
 
 //PRODUCTION for Spacecraft
 ### RENDER Get api-docs
-GET https://planetsproject.onrender.com/api-docs 
+GET https://planetsproject.onrender.com/api-docs HTTP/1.1
 
 ### GET all Spacecraft
-GET https://planetsproject.onrender.com/spacecraft 
+GET https://planetsproject.onrender.com/spacecraft HTTP/1.1
 
 ### GET Spacecraft by ID
 GET https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ae HTTP/1.1
