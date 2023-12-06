@@ -52,7 +52,7 @@ content-type: application/json
 }
 
 ### Delete Appointment - MUST UPDATE ID!!!
-DELETE http://localhost:8080/spacecraft/65697d0dc51b4ab061963cf8
+DELETE http://localhost:8080/spacecraft/65697d0dc51b4ab061963cf8 HTTP/1.1
 
 
 
@@ -82,7 +82,7 @@ content-type: application/json
 }
 
 ### Delete Appointment - MUST UPDATE ID!!!
-DELETE https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e45
+DELETE https://planetsproject.onrender.com/planets/653444dcbd87e66f0e061e45 HTTP/1.1
 
 
 
@@ -111,6 +111,6 @@ content-type: application/json
 }
 
 ### Delete Appointment - MUST UPDATE ID!!!
-DELETE https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ae
+DELETE https://planetsproject.onrender.com/spacecraft/6534488bbd87e66f0e0c83ae HTTP/1.1
 
 
